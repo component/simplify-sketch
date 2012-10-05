@@ -1,0 +1,13 @@
+{
+  "name": "simplify-sketch",
+  "version": "1.0.0",
+  "description": "path simplification for 'sketch'",
+  "keywords": ["path", "sketch", "canvas", "simplify"],
+  "scripts": ["index.js"],
+  "dependencies": {
+    "component/simplify": "*"
+  },
+  "development": {
+    "component/sketch": "*"
+  }
+}

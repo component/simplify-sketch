@@ -1,0 +1,18 @@
+<script src="build/build.js"></script>
+
+<style>
+  canvas {
+    border: 1px dotted #ddd;
+  }
+</style>
+
+<canvas width=800 height=500></canvas>
+
+<script>
+  var canvas = document.querySelector('canvas');
+  var Sketch = require('component-sketch');
+  var simplify = require('simplify-sketch');
+
+  var sketch = Sketch(canvas);
+  simplify(sketch, 1);
+</script>
