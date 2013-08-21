@@ -2,8 +2,15 @@
   "name": "simplify-sketch",
   "version": "1.0.0",
   "description": "path simplification for 'sketch'",
-  "keywords": ["path", "sketch", "canvas", "simplify"],
-  "scripts": ["index.js"],
+  "keywords": [
+    "path",
+    "sketch",
+    "canvas",
+    "simplify"
+  ],
+  "scripts": [
+    "index.js"
+  ],
   "dependencies": {
     "simplify": "*"
   },
@@ -11,5 +18,9 @@
     "scripts": {
       "simplify-sketch/index.js": "index.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/simplify-sketch.git"
   }
 }
